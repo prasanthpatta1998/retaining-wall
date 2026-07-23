@@ -311,7 +311,7 @@ export default function RetainingWallDesigner() {
         </div>
         <div className="rw-header-right">
           <img
-            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTArGzhAn3l3PtNH4bz8Lqbo4YkC1FHrm5szTMeHydiY5d3YFcYcdgdt9E&s=10"
             alt="User Avatar"
             className="rw-avatar"
           />
