@@ -1,0 +1,69 @@
+.field-row {
+  display: grid;
+  grid-template-columns: 1fr 110px;
+  gap: 10px;
+  align-items: center;
+}
+
+.field-label {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.field-input-wrap,
+.field-select {
+  display: flex;
+  align-items: center;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  height: 32px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  transition: all 0.15s ease-in-out;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.field-input-wrap:hover,
+.field-select:hover {
+  border-color: #94a3b8;
+  background: #ffffff;
+}
+
+.field-input-wrap:focus-within,
+.field-select:focus {
+  border-color: #6366f1;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.field-input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #0f172a;
+  text-align: right;
+  padding: 0 2px;
+}
+
+.field-unit {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: #94a3b8;
+}
+
+.field-select {
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
